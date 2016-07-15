@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+- name: ${1:name}
+  package:
+    name: ${2:package}
+    state: ${3:present}
+]]></content>
+  <tabTrigger>pkg</tabTrigger>
+  <scope>source.ansible</scope>
+  <description>Ansible package task</description>
+</snippet>

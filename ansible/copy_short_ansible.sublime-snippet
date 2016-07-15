@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+- name: ${1:name}
+  copy: src=files/${2:file} dest=${3:dest} owner=${4:owner} mode=${5:mode}
+]]></content>
+  <tabTrigger>scopy</tabTrigger>
+  <scope>source.ansible</scope>
+  <description>Ansible copy task (single line)</description>
+</snippet>

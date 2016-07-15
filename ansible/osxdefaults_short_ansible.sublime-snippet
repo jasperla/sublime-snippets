@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+- name: ${1:name}
+  osx_defaults: domain=${2:domain} key=${3:key} type=${4:boolean} value=${5:true} state=${6:present}
+]]></content>
+  <tabTrigger>sosxd</tabTrigger>
+  <scope>source.ansible</scope>
+  <description>Ansible osx_defaults task (single line)</description>
+</snippet>

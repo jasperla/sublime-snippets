@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+- name: ${1:name}
+  template: src=templates/${2:tpl}.j2 dest=${3:dest} owner=${4:owner}
+]]></content>
+  <tabTrigger>stpl</tabTrigger>
+  <scope>source.ansible</scope>
+  <description>Ansible template task (single line)</description>
+</snippet>
