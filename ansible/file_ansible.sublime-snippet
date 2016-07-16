@@ -2,10 +2,10 @@
   <content><![CDATA[
 - name: ${1:name}
   file:
-  path: ${2:file}
-  owner: ${4:owner}
-  mode: ${5:mode}
-  state: ${6:present}
+    path: ${2:file}
+    owner: ${4:owner}
+    mode: ${5:mode}
+    state: ${6:present}
 ]]></content>
   <tabTrigger>file</tabTrigger>
   <scope>source.ansible</scope>
